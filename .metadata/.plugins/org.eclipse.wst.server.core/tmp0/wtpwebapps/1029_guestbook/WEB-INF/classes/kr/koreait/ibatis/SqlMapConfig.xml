@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DOCTYPE이 sqlMapConfig는 iBATIS의 환경을 설정하는 xml 파일이다. -->
+<!DOCTYPE sqlMapConfig PUBLIC "-//iBATIS.com//DTD SQL Map Config 2.0//EN"
+"http://www.ibatis.com/dtd/sql-map-config-2.dtd">
+<sqlMapConfig>
+	<properties resource="kr/koreait/ibatis/db.properties" />
+	<settings 
+		cacheModelsEnabled="true" 
+		enhancementEnabled="true"
+		lazyLoadingEnabled="true" 
+		maxRequests="32" 
+		maxSessions="10"
+		maxTransactions="5" 
+		useStatementNamespaces="false" 
+	/>
+	
+	<!--
+		parameterClass나 resultClass에 클래스를 사용하려면 풀 패키지 이름과 같이 사용해야 한다고 그랬었지요... => 짜증나요... 길고
+		<typeAlias>의 alias 속성에 별명을 쓰고 type 속성에 클래스 이름을 풀 패키지 이름과 같이 적어주면 sql 명령을 입력하는 xml
+		파일에서 풀 패키지 이름대신 alias 속성에 별명으로 지정한 이름을 사용할 수 있어요....
+	-->
+	<typeAlias alias="vo" type="kr.koreait.vo.GuestbookVO" />
+	<typeAlias alias="param" type="kr.koreait.vo.Param" />
+	
+	<transactionManager type="JDBC">
+		<dataSource type="SIMPLE">
+			<property name="JDBC.Driver" value="${driver}" />
+			<property name="JDBC.ConnectionURL" value="${url}" />
+			<property name="JDBC.Username" value="${username}" />
+			<property name="JDBC.Password" value="${password}" />
+		</dataSource>
+	</transactionManager>
+	<sqlMap resource="kr/koreait/ibatis/guestbook.xml" />
+</sqlMapConfig>
+
+
+
+
+
+
+
+
+
+

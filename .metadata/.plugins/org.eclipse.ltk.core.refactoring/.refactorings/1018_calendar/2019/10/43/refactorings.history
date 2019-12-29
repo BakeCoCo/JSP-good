@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;1018_calendar/WebContent/NewFile.css&apos; to &apos;calendar.css&apos;" description="Rename resource &apos;NewFile.css&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/NewFile.css" name="calendar.css" stamp="1571625553629" updateReferences="true"/>
+</session>

@@ -1,0 +1,91 @@
+
+10월 21, 2019 13:45:28.89 NEW SESSION
+10월 21, 2019 13:45:28.89 C:\Users\Administrator\AppData\Roaming\Mozilla\Firefox\Profiles\j0vagmis.default\user.js:1: prefs parse error: unexpected character
+10월 21, 2019 13:45:28.89 C:\Users\Administrator\AppData\Roaming\Mozilla\Firefox\Profiles\j0vagmis.default\user.js:2: prefs parse error: unexpected character
+10월 21, 2019 13:45:51.11 IPDL protocol error: Handler returned error code!
+10월 21, 2019 13:45:51.11 
+10월 21, 2019 13:45:51.11 ###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+10월 21, 2019 13:45:51.11 
+10월 21, 2019 13:45:51.14 IPDL protocol error: Handler returned error code!
+10월 21, 2019 13:45:51.14 
+10월 21, 2019 13:45:51.14 ###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+10월 21, 2019 13:45:51.14 
+10월 21, 2019 13:45:51.14 IPDL protocol error: Handler returned error code!
+10월 21, 2019 13:45:51.14 
+10월 21, 2019 13:45:51.14 ###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+10월 21, 2019 13:45:51.14 
+10월 21, 2019 13:45:51.17 [Child 12344, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+10월 21, 2019 13:45:51.17 [Child 12344, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+10월 21, 2019 13:45:51.17 [Child 9952, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+10월 21, 2019 13:45:51.18 [Child 9952, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+10월 21, 2019 13:45:51.20 [Parent 1816, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+10월 21, 2019 13:45:51.20 [Child 12264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+10월 21, 2019 13:45:51.35 [GPU 11272, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+10월 21, 2019 13:45:51.36 
+10월 21, 2019 13:45:51.36 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+10월 21, 2019 13:45:51.36 
+10월 21, 2019 13:45:58.53 
+10월 21, 2019 13:45:58.53 KLIB_SelfTest return : KLR_OK
+10월 21, 2019 13:47:29.99 
+10월 21, 2019 13:47:29.99 KLIB_SelfTest return : KLR_OK
+10월 21, 2019 15:33:49.31 
+10월 21, 2019 15:33:49.31 KLIB_SelfTest return : KLR_OK
+10월 21, 2019 15:34:56.52 
+10월 21, 2019 15:34:56.52 KLIB_SelfTest return : KLR_OK
+10월 21, 2019 16:15:48.00 
+10월 21, 2019 16:15:48.00 KLIB_SelfTest return : KLR_OK
+10월 21, 2019 16:16:33.29 
+10월 21, 2019 16:16:33.29 KLIB_SelfTest return : KLR_OK
+10월 21, 2019 16:17:13.24 
+10월 21, 2019 16:17:13.24 KLIB_SelfTest return : KLR_OK
+10월 21, 2019 16:18:11.91 
+10월 21, 2019 16:18:11.91 KLIB_SelfTest return : KLR_OK
+10월 21, 2019 16:18:42.31 
+10월 21, 2019 16:18:42.31 KLIB_SelfTest return : KLR_OK
+10월 21, 2019 16:25:30.12 
+10월 21, 2019 16:25:30.12 KLIB_SelfTest return : KLR_OK
+
+11월 01, 2019 15:52:31.68 NEW SESSION
+11월 01, 2019 15:52:31.69 
+11월 01, 2019 15:52:31.70 KLIB_SelfTest return : KLR_OK
+11월 01, 2019 16:26:32.72 
+11월 01, 2019 16:26:32.72 KLIB_SelfTest return : KLR_OK
+11월 01, 2019 16:29:02.82 
+11월 01, 2019 16:29:02.82 KLIB_SelfTest return : KLR_OK
+11월 01, 2019 16:30:03.57 
+11월 01, 2019 16:30:03.57 KLIB_SelfTest return : KLR_OK
+11월 01, 2019 16:31:06.96 
+11월 01, 2019 16:31:06.96 KLIB_SelfTest return : KLR_OK
+11월 01, 2019 16:34:27.02 
+11월 01, 2019 16:34:27.02 KLIB_SelfTest return : KLR_OK
+11월 01, 2019 16:35:55.28 
+11월 01, 2019 16:35:55.28 KLIB_SelfTest return : KLR_OK
+11월 01, 2019 17:08:20.94 
+11월 01, 2019 17:08:20.94 KLIB_SelfTest return : KLR_OK
+11월 01, 2019 17:09:12.80 
+11월 01, 2019 17:09:12.83 KLIB_SelfTest return : KLR_OK
+11월 01, 2019 17:12:22.43 
+11월 01, 2019 17:12:22.45 KLIB_SelfTest return : KLR_OK
+11월 01, 2019 17:16:57.64 
+11월 01, 2019 17:16:57.64 KLIB_SelfTest return : KLR_OK
+11월 01, 2019 17:35:01.40 
+11월 01, 2019 17:35:01.43 KLIB_SelfTest return : KLR_OK
+
+11월 14, 2019 09:38:27.90 NEW SESSION
+11월 14, 2019 09:38:27.90 
+11월 14, 2019 09:38:27.94 KLIB_SelfTest return : KLR_OK
+11월 14, 2019 09:45:13.60 
+11월 14, 2019 09:45:13.60 KLIB_SelfTest return : KLR_OK
+11월 14, 2019 09:46:18.21 
+11월 14, 2019 09:46:18.21 KLIB_SelfTest return : KLR_OK
+11월 14, 2019 10:05:37.87 
+11월 14, 2019 10:05:37.87 KLIB_SelfTest return : KLR_OK
+11월 14, 2019 10:09:01.71 
+11월 14, 2019 10:09:01.71 KLIB_SelfTest return : KLR_OK
+11월 14, 2019 14:09:19.69 [11980:8096:1114/140919.674:ERROR:socket_stream.cc(218)] Closing stream with result -2
+
+12월 11, 2019 17:49:56.31 NEW SESSION
+12월 11, 2019 17:49:56.31 
+12월 11, 2019 17:49:56.33 KLIB_SelfTest return : KLR_OK
+12월 11, 2019 17:50:46.60 
+12월 11, 2019 17:50:46.60 KLIB_SelfTest return : KLR_OK

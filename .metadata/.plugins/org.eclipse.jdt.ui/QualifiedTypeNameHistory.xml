@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="javax.naming.Context"/>
+<fullyQualifiedTypeName name="javax.naming.InitialContext"/>
+<fullyQualifiedTypeName name="javax.sql.DataSource"/>
+<fullyQualifiedTypeName name="kr.koreait.service.InsertService"/>
+<fullyQualifiedTypeName name="com.ibatis.sqlmap.client.SqlMapClient"/>
+<fullyQualifiedTypeName name="kr.koreait.ibatis.MyAppSqlConfig"/>
+<fullyQualifiedTypeName name="kr.koreait.vo.GuestbookVO"/>
+<fullyQualifiedTypeName name="kr.koreait.dao.GuestbookDAO"/>
+<fullyQualifiedTypeName name="kr.koreait.vo.GuestbookList"/>
+<fullyQualifiedTypeName name="kr.koreait.vo.Param"/>
+<fullyQualifiedTypeName name="kr.koreait.service.CategoryService"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.ReturnInstruction"/>
+<fullyQualifiedTypeName name="kr.koreait.vo.CategoryList"/>
+<fullyQualifiedTypeName name="kr.koreait.vo.CategoryVO"/>
+<fullyQualifiedTypeName name="kr.koreait.dao.CategoryDAO"/>
+<fullyQualifiedTypeName name="kr.koreait.service.FreeboardService"/>
+<fullyQualifiedTypeName name="kr.koreait.vo.FreeboardList"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="kr.koreait.vo.FreeboardVO"/>
+<fullyQualifiedTypeName name="kr.koreait.vo.FreeboardCommentList"/>
+<fullyQualifiedTypeName name="kr.koreait.dao.FreeboardDAO"/>
+<fullyQualifiedTypeName name="kr.koreait.vo.FreeboardCommentVO"/>
+<fullyQualifiedTypeName name="kr.koreait.dao.FreeboardCommentDAO"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
+<fullyQualifiedTypeName name="kr.koreait.mybatis.MySession"/>
+<fullyQualifiedTypeName name="kr.koreait.service.MvcboardService"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="kr.koreait.vo.MvcboardList"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="kr.koreait.vo.MvcboardVO"/>
+<fullyQualifiedTypeName name="kr.koreait.dao.MvcboardDAO"/>
+</qualifiedTypeNameHistroy>
