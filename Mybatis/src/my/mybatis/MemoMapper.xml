@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="my.mybatis.MemoMapper">
+
+	<insert id="insertMemo" parameterType="my.model.Memo">
+		insert into memo (idx,name,password,memo)
+		values (memo_idx_seq.nextval,#{name },#{password },#{memo })
+	</insert>
+	<select id="getCount" resultType="int">
+		select count(*) from memo
+	</select>
+	<select id="selectByIdx" resultType="my.model.Memo" parameterType="int">
+		select * from memo where idx = #{idx }
+	</select>
+	
+</mapper>

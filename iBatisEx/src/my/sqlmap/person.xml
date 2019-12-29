@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- DOCTYPE이 sqlMap은 처리할 SQL 명령을 기억하는 xml 파일이다. -->
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="Person">
+	<!-- id : SQL 명령을 식별한다. -->
+	<!-- parameterClass : SQL 명령으로 전달되는 데이터의 타입을 적는다. -->
+	<!-- resultClass : SQL 명령문에의해 출력되는 데이터의 타입을 적는다. -->
+	<select id="getPerson" parameterClass="int" resultClass="my.ibatis.Person">
+		SELECT PER_ID as id, PER_FIRST_NAME as firstName, PER_LAST_NAME as lastName,
+		PER_BIRTH_DATE as birthDate, PER_WEIGHT_KG as weightInKilograms,
+		PER_HEIGHT_M as heightInMeters
+		FROM PERSON WHERE PER_ID = #value#
+	</select>
+	<insert id="insertPerson" parameterClass="my.ibatis.Person">
+		INSERT INTO PERSON (PER_ID, PER_FIRST_NAME, PER_LAST_NAME, PER_BIRTH_DATE, PER_WEIGHT_KG, PER_HEIGHT_M)
+		VALUES (person_id_seq.NEXTVAL, #firstName#, #lastName#, #birthDate#, #weightInKilograms#, #heightInMeters#)
+	</insert>
+	<update id="updatePerson" parameterClass="my.ibatis.Person">
+	    <![CDATA[
+		UPDATE PERSON SET PER_FIRST_NAME = #firstName#, PER_LAST_NAME = #lastName#, 
+		PER_BIRTH_DATE = #birthDate#, PER_WEIGHT_KG = #weightInKilograms#,
+		PER_HEIGHT_M = #heightInMeters# WHERE PER_ID = #id#
+		]]>
+	</update>
+	<delete id="deletePerson" parameterClass="my.ibatis.Person">
+		DELETE PERSON WHERE PER_ID = #id#
+	</delete>
+</sqlMap>

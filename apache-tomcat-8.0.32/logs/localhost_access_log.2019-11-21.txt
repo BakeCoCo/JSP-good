@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [21/Nov/2019:15:36:33 +0900] "GET / HTTP/1.1" 200 11452
+0:0:0:0:0:0:0:1 - - [21/Nov/2019:15:36:47 +0900] "GET /springMVCBoard_DBCPTemplate HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/Nov/2019:15:36:48 +0900] "GET /springMVCBoard_DBCPTemplate/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/Nov/2019:15:36:49 +0900] "GET /springMVCBoard_DBCPTemplate/list HTTP/1.1" 200 12702
+0:0:0:0:0:0:0:1 - - [21/Nov/2019:16:10:23 +0900] "GET / HTTP/1.1" 200 11452
+0:0:0:0:0:0:0:1 - - [21/Nov/2019:16:10:52 +0900] "GET /springMVCBoard_DBCPTemplate HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/Nov/2019:16:10:52 +0900] "GET /springMVCBoard_DBCPTemplate/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/Nov/2019:16:10:52 +0900] "GET /springMVCBoard_DBCPTemplate/list HTTP/1.1" 200 12702
