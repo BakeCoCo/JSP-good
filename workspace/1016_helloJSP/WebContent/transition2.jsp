@@ -16,7 +16,7 @@
  	}
 	div#box2 {
 		transform: translate(100px, 0px);
-		background-color: blue;
+		background-color: white;
  	}
 	div#box3 {
 		transform: scale(1.2, 1.2);

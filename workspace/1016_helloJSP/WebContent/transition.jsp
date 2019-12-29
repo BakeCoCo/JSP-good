@@ -13,14 +13,14 @@
 		border: 1px solid black;
 		background: yellow;
  		transition: width 5s height 5s border 5s transform 5s;
- 		-webkit-transition: width 5s, height 5s, border 5s, -webkit-transform 5s;
+ 		-webkit-transition: width 2s, height 2s, border 2s, -webkit-transform 2s;
  	}
 	div:hover {
 		width: 200px;
 		height: 100px;
 		border: 10px solid red;
-		transform: rotate(180deg);
-		-webkit-transform: rotate(180deg);
+		transform: rotate(360deg);
+		
  	}
 
 </style>
